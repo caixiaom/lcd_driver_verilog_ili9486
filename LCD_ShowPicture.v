@@ -6,7 +6,7 @@ module LCD_ShowPicture (
     input wire [15:0] y,
     input wire [15:0] length,
     input wire [15:0] width,
-    output reg [15:0] ram_addr,
+    output reg [17:0] ram_addr,
     input wire [23:0] ram_data,
     output reg ram_rd_en,
     output reg [23:0] lcd_data,
